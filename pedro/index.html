@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Minha Empresa</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style/style.css">
 </head>
 <body>
 
@@ -17,55 +17,61 @@
 
     <main>
         <section class="welcome-section">
-            <h1 class="bem-vindo-ao-meu-site">Bem-vindo ao meu site</h1>
+            <h1 class="bemvindo">Bem-vindo ao meu site</h1>
             <p class="descricao">
                 Este é um espaço onde você pode encontrar informações sobre os nossos serviços.
             </p>
+            <button class="saber">Saber Mais</button>
         </section>
 
         <section class="services-section">
             <div class="service">
-                <div class="rectangle"></div>
-                <h3 class="consultoria">Consultoria</h3>
-                <p>
-                    Ajudamos você a expandir sua marca e conquistar novos clientes por meio de
-                    estratégias personalizadas.
-                </p>
+                <div class="rectangle">
+                    <h3>Consultoria</h3>
+                    <p>
+                        Ajudamos você a expandir sua marca e conquistar novos clientes por meio de
+                        estratégias personalizadas.
+                    </p>
+                </div>
             </div>
-
+        
             <div class="service">
-                <div class="rectangle"></div>
-                <h3 class="desenvolvimento-web">Desenvolvimento Web</h3>
-                <p>
-                    Criamos sites modernos e responsivos usando as melhores práticas e
-                    tecnologias de mercado.
-                </p>
+                <div class="rectangle">
+                    <h3>Desenvolvimento Web</h3>
+                    <p>
+                        Criamos sites modernos e responsivos usando as melhores práticas e
+                        tecnologias de mercado.
+                    </p>
+                </div>
             </div>
-
+        
             <div class="service">
-                <div class="rectangle"></div>
-                <h3 class="suporte-manutencao">Suporte &amp; Manutenção</h3>
-                <p>
-                    Garantimos que sua plataforma esteja sempre funcionando e disponível com
-                    segurança e estabilidade.
-                </p>
+                <div class="rectangle">
+                    <h3>Suporte &amp; Manutenção</h3>
+                    <p>
+                        Garantimos que sua plataforma esteja sempre funcionando e disponível com
+                        segurança e estabilidade.
+                    </p>
+                </div>
             </div>
         </section>
+        
+        
 
         <section id="contato" class="contact-section">
-            <h2>Contato</h2>
+            <h2 class="fale">Fale Conosco</h2>
             <form>
                 <label for="nome">Seu nome</label>
-                <input type="text" id="nome" name="nome" class="input-field" placeholder="Seu nome">
+                <input type="text" id="nome" name="nome" class="input" placeholder="Seu nome">
 
                 <label for="email">Seu e-mail</label>
-                <input type="email" id="email" name="email" class="input-field" placeholder="Seu e-mail">
+                <input type="email" id="email" name="email" class="input" placeholder="Seu e-mail">
 
                 <label for="telefone">Seu telefone</label>
-                <input type="tel" id="telefone" name="telefone" class="input-field" placeholder="Seu telefone">
+                <input type="tel" id="telefone" name="telefone" class="input" placeholder="Seu telefone">
 
                 <label for="assunto">Assunto</label>
-                <input type="text" id="assunto" name="assunto" class="input-field" placeholder="Assunto">
+                <input type="text" id="assunto" name="assunto" class="input" placeholder="Assunto">
 
                 <button type="submit" class="enviar">Enviar</button>
             </form>
