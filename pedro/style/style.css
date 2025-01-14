@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+body, html {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+  }
+  
+  .container {
+    background-color: #fafcfe;
+    width: 100%;
+    min-height: 100vh;
+    overflow-x: hidden;
+    position: relative;
+  }
+
+  header {
+    background-color: #4caf50;
+    width: 100%;
+    height: 103px;
+    display: flex;
+    align-items: center;
+    font-family: 'Inter';
+    justify-content: space-between;
+    padding: 0 60px;
+    color: white;
+  }
+
+  .minha-empresa{
+    font-weight: bold;
+  }
+
+  .contato{
+    display: flex;
+    padding-right: 120px;
+    font-weight: normal;
+
+  }
+
+  footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    font-size: 16px;
+    margin-top: 50px;
+  }
+  
